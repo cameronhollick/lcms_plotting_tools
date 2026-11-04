@@ -1,2 +1,2 @@
-# lcms_plotting_tools
-A set of Python scripts to plot CSV data extracted from Thermo Scientific FreeStyle
+## A little set of plotting tools for liquid chromatography and mass spectrometry data
+A set of Python scripts designed to aid in the plotting of chromatographic and mass spectrometry data, particularly that which has been obtained on an Orbitrap. After initial data processing in your software of choice (if using the Orbitrap in C/D/017, this will be FreeStyle), export your data in CSV format, load things into the relevant script, and let Python take care of the rest.
