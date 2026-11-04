@@ -1,2 +1,4 @@
 ## A little set of plotting tools for liquid chromatography and mass spectrometry data
 A set of Python scripts designed to aid in the plotting of chromatographic and mass spectrometry data, particularly that which has been obtained on an Orbitrap. After initial data processing in your software of choice (if using the Orbitrap in C/D/017, this will be FreeStyle), export your data in CSV format, load things into the relevant script, and let Python take care of the rest.
+
+**chromastack:** Designed for plotting chromatograms on the same set of axes for experiments where the sample is the same, but the injection volumes are different. By default, reads the first 5 CSV files in a user-specified folder and assigns them to 1, 2, 5, 10 and 20 μL (can be changed in the script).
